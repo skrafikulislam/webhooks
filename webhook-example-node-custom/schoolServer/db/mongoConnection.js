@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 MONGO_URI =
-  "mongodb+srv://rafikul_22:babu123@cluster0.7czq9eo.mongodb.net/webhooks?retryWrites=true&w=majority&appName=Cluster0";
+  ""
 
 const mongoConnection = () => {
   mongoose.connect(MONGO_URI);
